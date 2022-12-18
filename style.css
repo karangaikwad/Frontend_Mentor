@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Montserrat:wght@100;200;300;400&display=swap');
+/* font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif; */
+h1{
+    font-family: 'Fraunces', serif;
+    font-weight: 800;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    color:hsl(228, 12%, 48%);
+}
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+.main{
+    margin: auto;
+    display: flex;
+    background-color: white;
+    width: 600px;
+    margin-top: 125px;
+    border-radius: 12px;
+}
+.image{
+    
+}
+img{
+    display: inline-block;
+    width: 50%;
+    border-top-left-radius: inherit;
+    border-bottom-left-radius: inherit;
+}
+.perfume{
+    letter-spacing: 3px;
+    
+}
+.content{
+    display: inline-block;
+    width: 49%;
+    height: max-content;
+    padding: 30px;
+}
+.price{
+    display: inline-block;
+    color: hsl(158, 36%, 37%);
+}
+.price1{
+    display: inline-block;
+    text-decoration: line-through;
+    padding: 10px;
+    color:hsl(228, 12%, 48%);
+}
+button{
+    width:230px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background-color: hsl(158, 36%, 37%);
+    /* align-content: center;
+     */
+    }
+.heading{
+    color:hsl(212, 21%, 14%);
+}
+.btn-text{
+    padding: 6px;
+    padding-bottom: 12px;
+    display: inline;
+    color: white;
+}
+
+@media (max-width: 600px) {
+
+    .main{
+        display: block;
+        margin-top: 0;
+        width: 350px;
+    }
+    img{
+        height: 300px;
+        width: 100%;
+        border-radius: 0;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+    }
+    .content{
+        width: 90%;
+    }
+}
